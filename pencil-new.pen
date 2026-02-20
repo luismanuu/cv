@@ -1,0 +1,1109 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 1440,
+      "fill": "#18181B",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "bXJjU",
+          "name": "header",
+          "width": "fill_container",
+          "fill": "#0F0F10",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#27272A"
+          },
+          "padding": [
+            24,
+            40
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ehBcU",
+              "name": "logo",
+              "fill": "#FAFAFA",
+              "content": "Luis",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "RW4kz",
+              "name": "navRow",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nbQ3d",
+                  "name": "navAbout",
+                  "fill": "#A1A1AA",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "MaCv8",
+                  "name": "navSkills",
+                  "fill": "#A1A1AA",
+                  "content": "Skills",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "jvbwQ",
+                  "name": "navProjects",
+                  "fill": "#A1A1AA",
+                  "content": "Projects",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "xQMQT",
+                  "name": "navContact",
+                  "fill": "#A1A1AA",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r0YP0",
+              "name": "ctaBtn",
+              "fill": "#FACC15",
+              "padding": [
+                12,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "avjgL",
+                  "name": "ctaLabel",
+                  "fill": "#0F0F10",
+                  "content": "View my work",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U1Kob",
+          "name": "hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Rv0Zi",
+              "name": "heroHeadline",
+              "fill": "#FAFAFA",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "I build systems that make remote teams run clearer and faster.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "Ed2kq",
+              "name": "heroSub",
+              "fill": "#71717A",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "QA consultant + automation builder with experience in martech, AI workflows, and distributed team operations.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uk2r2",
+              "name": "heroCtaRow",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5Sa7n",
+                  "name": "heroCta1",
+                  "fill": "#FACC15",
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TSWQw",
+                      "name": "heroCta1Text",
+                      "fill": "#0F0F10",
+                      "content": "View my work",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OOxfo",
+          "name": "aboutSec",
+          "width": "fill_container",
+          "fill": "#0F0F10",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            64,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "D27Mx",
+              "name": "aboutTitle",
+              "fill": "#71717A",
+              "content": "About",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "swzJW",
+              "name": "aboutHeadline",
+              "fill": "#FAFAFA",
+              "content": "QA consultant and builder based in Ecuador.",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "RbZ4J",
+              "name": "aboutBody",
+              "fill": "#A1A1AA",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "I work with US-based tech companies remotely and specialize in systems that reduce friction — from automated testing pipelines to AI-powered workflows. I’ve been async-native from day one and believe the best processes are the ones people actually use.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NbG1M",
+          "name": "skillsSec",
+          "width": "fill_container",
+          "fill": "#18181B",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zatFU",
+              "name": "skillsTitle",
+              "fill": "#71717A",
+              "content": "Skills & Tools",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "pjYkG",
+              "name": "skillsHeadline",
+              "fill": "#FAFAFA",
+              "content": "What I work with",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "Lutjq",
+              "name": "skillsGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aM2hJ",
+                  "name": "card1",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4XYPv",
+                      "name": "card1Title",
+                      "fill": "#FACC15",
+                      "content": "QA & Testing",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "rHX8t",
+                      "name": "card1Body",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "Python, PromptFoo, Langfuse, Google Tag Manager, Compliance Testing, Playwright, Cypress, Selenium, Postman, Cross-browser Testing, Automated Test Suites, Manual & Regression Testing",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0WJLI",
+                  "name": "card2",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vcn65",
+                      "name": "card2Title",
+                      "fill": "#FACC15",
+                      "content": "Marketing Technology",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "aSzwB",
+                      "name": "card2Body",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "Braze (Campaign Management, Content Cards, Conversion Tracking), Pardot (Lead Management, Form Integration), Salesforce CRM, Google Tag Manager, GA4, OneTrust (Cookie Consent Management)",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sTcMO",
+                  "name": "card4",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "blNw9",
+                      "name": "card4Title",
+                      "fill": "#FACC15",
+                      "content": "Documentation & Ops",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "a5W9u",
+                      "name": "card4Body",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "Notion, Slack, Jira, Confluence, Atlassian Suite, async communication, process documentation, Technical Documentation, Scrum/Agile",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6MpFO",
+                  "name": "card3",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VH0yY",
+                      "name": "card3Title",
+                      "fill": "#FACC15",
+                      "content": "Automation & AI",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "0dbT0",
+                      "name": "card3Body",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "n8n, Claude API, Cursor, Make/Zapier, Webhook workflows, CI/CD (Jenkins), AI-augmented workflows",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "05FAx",
+                  "name": "card5",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1K719",
+                      "name": "c5t",
+                      "fill": "#FACC15",
+                      "content": "Development & Integration",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "EFqGH",
+                      "name": "c5b",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "JavaScript, TypeScript, Python, RESTful API Integration, Third-party Platform Integration, Webhook Configuration",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hd6gg",
+                  "name": "card6",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P6hDD",
+                      "name": "c6t",
+                      "fill": "#FACC15",
+                      "content": "Compliance & Privacy",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "PdKAN",
+                      "name": "c6b",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "GDPR/CCPA Cookie Banner Implementation, Marketing Tag Compliance, Privacy Policy Testing, Consent Management",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v3nx6",
+                  "name": "card7",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CsgSi",
+                      "name": "c7t",
+                      "fill": "#FACC15",
+                      "content": "CMS & Analytics",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "HeyHZ",
+                      "name": "c7b",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "Prismic CMS, Cloudinary, GA4 Implementation, Event Tracking, Conversion Funnel Optimization, User Segmentation, Tag Management",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WYw6i",
+                  "name": "card8",
+                  "width": 280,
+                  "fill": "#0F0F10",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zSaPl",
+                      "name": "c8t",
+                      "fill": "#FACC15",
+                      "content": "Cloud & Systems",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "XgWwc",
+                      "name": "c8b",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 232,
+                      "content": "Azure Fundamentals, AWS Fundamentals, Oracle Fusion Middleware, Linux",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CqQZz",
+          "name": "projSec",
+          "width": "fill_container",
+          "fill": "#0F0F10",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "8foT5",
+              "name": "projTitle",
+              "fill": "#71717A",
+              "content": "Projects",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Uhtc0",
+              "name": "projHeadline",
+              "fill": "#FAFAFA",
+              "content": "What I build",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "CV99Y",
+              "name": "projList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yyxkp",
+                  "name": "p1",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IYy28",
+                      "name": "p1Name",
+                      "fill": "#FACC15",
+                      "content": "Async Standup Summarizer",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "ouCuB",
+                      "name": "p1Sub",
+                      "fill": "#71717A",
+                      "content": "Buffer application project",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "II88n",
+                      "name": "p1Desc",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 1000,
+                      "content": "n8n + Claude + Slack + Notion workflow that transforms raw standup transcripts into structured digests and searchable Notion logs. Built to demonstrate systems thinking for async remote teams.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XKLzL",
+                  "name": "p2",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RAC67",
+                      "name": "p2Name",
+                      "fill": "#FACC15",
+                      "content": "TempoAce",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "bBTek",
+                      "name": "p2Sub",
+                      "fill": "#71717A",
+                      "content": "Chrome extension · $7/month",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "LlOBa",
+                      "name": "p2Desc",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 1000,
+                      "content": "AI-powered Chrome extension for real-time interview assistance. Built end-to-end — from architecture to monetization. English + Spanish support.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6oQdh",
+                  "name": "p3",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TAJ8H",
+                      "name": "p3Name",
+                      "fill": "#FACC15",
+                      "content": "Tempoly",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "RMH44",
+                      "name": "p3Sub",
+                      "fill": "#71717A",
+                      "content": "Marketing attribution SaaS · In development",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "IMFFB",
+                      "name": "p3Desc",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 1000,
+                      "content": "Marketing attribution SaaS for LATAM e-commerce. Addresses gaps left by global platforms in the Ecuadorian market.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TvYfh",
+                  "name": "p4",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZpTaC",
+                      "name": "p4Name",
+                      "fill": "#FACC15",
+                      "content": "QA Automation Scripts",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "R2GYb",
+                      "name": "p4Sub",
+                      "fill": "#71717A",
+                      "content": "Consulting work",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "iUj1x",
+                      "name": "p4Desc",
+                      "fill": "#A1A1AA",
+                      "textGrowth": "fixed-width",
+                      "width": 1000,
+                      "content": "Python-based compliance and tag testing automation for enterprise martech stacks including Braze, Pardot, and GTM. Reduced manual QA time and increased coverage consistency.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1Ta6i",
+          "name": "bufferSec",
+          "width": "fill_container",
+          "fill": "#18181B",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            64,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "iWjH1",
+              "name": "bufferTitle",
+              "fill": "#71717A",
+              "content": "How I Work",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "XoDOw",
+              "name": "howFrame",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VFk88",
+                  "name": "p1",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 1000,
+                  "content": "Async by default. I document decisions, not just outcomes. If it wasn't written down, it didn't happen.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "lUTjO",
+                  "name": "p2",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 1000,
+                  "content": "AI is part of my workflow, not a novelty. I use Claude and Cursor daily — for writing, coding, testing, and thinking through problems faster.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bgjFj",
+                  "name": "p3",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 1000,
+                  "content": "I build to reduce friction. Every process I create should make someone's day easier, not add overhead.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TUkQ7",
+                  "name": "p4",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 1000,
+                  "content": "I work across time zones. Based in Ecuador, contracted with US companies — I've learned to communicate clearly without relying on real-time availability.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "igv9s",
+                  "name": "p5",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 1000,
+                  "content": "I ship small, then iterate. I'd rather have something working and imperfect than a perfect plan that never runs.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "08V5u",
+          "name": "contactSec",
+          "width": "fill_container",
+          "fill": "#0F0F10",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#27272A"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            64,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "sRwVm",
+              "name": "contactTitle",
+              "fill": "#71717A",
+              "content": "Contact",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "EVled",
+              "name": "contactHeadline",
+              "fill": "#FAFAFA",
+              "content": "Get in touch",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "L5exB",
+              "name": "contactNote",
+              "fill": "#71717A",
+              "content": "This site was built for the Buffer application.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "V3ytu",
+              "name": "contactLinks",
+              "width": "fill_container",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1aOA4",
+                  "name": "linkLi",
+                  "fill": "#FACC15",
+                  "content": "LinkedIn",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "7UIzq",
+                  "name": "linkGh",
+                  "fill": "#FACC15",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "7kOll",
+                  "name": "linkEmail",
+                  "fill": "#FACC15",
+                  "content": "Email",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CnTDk",
+          "name": "footerBar",
+          "width": "fill_container",
+          "fill": "#0F0F10",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#27272A"
+          },
+          "padding": [
+            16,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bYkoA",
+              "name": "footerLogo",
+              "fill": "#52525B",
+              "content": "Luis",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Eh9et",
+              "name": "footerCopy",
+              "fill": "#52525B",
+              "content": "© 2025 · QA consultant & automation builder",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
